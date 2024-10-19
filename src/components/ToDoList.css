@@ -1,0 +1,106 @@
+/* General body styling for minimalism */
+.body-todo {
+    background-color: #f9f9f9;
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading with simple clean look */
+h1 {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input box with clean border and padding */
+input[type='text'] {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: none;
+    margin-right: -5px;
+    outline: none;
+}
+
+/* Add button, subtle style */
+.add-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Ordered list styling */
+ol {
+    list-style-type: decimal;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+/* Each task item */
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* Text for task */
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+    flex: 1;
+    margin-left: 10px;
+}
+
+/* Buttons inside list item */
+.li-buttons {
+    display: flex;
+}
+
+button {
+    background-color: #ddd;
+    border: none;
+    color: #555;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+/* Specific button color changes */
+.edit-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.up-button, .down-button {
+    background-color: #007BFF; /* Blue */
+    color: white;
+}
+
+.delete-button {
+    background-color: #FF4136; /* Red */
+    color: white;
+}
+
+/* Input checkbox for tasks */
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
